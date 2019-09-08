@@ -23,6 +23,87 @@
   color: #61dafb;
 }
 
+div#filter-furniture-style button {
+    width: 100%;
+}
+
+div#filter-furniture-style > div > div {
+    width: 100% !important;
+}
+
+div#filter-furniture-style input {
+    float: right;
+}
+
+div[id^='react-select-'] {
+    text-align: left;
+}
+
+div#search input {
+    width: 100%;
+    margin: 15px 0px;
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    color: white;
+}
+
+div#product-filter {
+    background: #007bff;
+    padding: 29px 0px;
+}
+
+div#search input:focus {
+    outline: none;
+}
+
+div#search input::placeholder {
+    color: white;
+    font-weight: 700;
+}
+
+.product-item {
+    margin: 15px 0px;
+}
+
+div#product-list {
+    padding: 15px 0px;
+}
+
+.product-name.col-8 {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.product-price {
+    color: #ffbe00;
+    font-weight: 700;
+    text-align: right;
+    padding: 5px 15px;
+}
+
+.product-desc {
+    text-align: left;
+    margin: 11px 0px;
+}
+
+.product-style {
+    text-align: left;
+    color: #00b6ff;
+}
+
+.product-delivery {
+    text-align: right;
+}
+
+.product-item .row {
+    border: 1px solid black;
+    margin: 0px;
+    padding: 15px 0px;
+    border-radius: 13px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

@@ -1,5 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Available Bugs
+Ketika search by keyword selalu tidak sesuai dengan input text, misalkan mencari "saya" makan pencarian yang dilakukan adalah "say"
+
 ## Available Scripts
 
 In the project directory, you can run:
